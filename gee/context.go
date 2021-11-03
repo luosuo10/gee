@@ -27,6 +27,7 @@ type Context struct {
 	// request related
 	Path    string
 	Methond string
+	Params map[string]string
 
 	// responce related
 	StatusCode int
